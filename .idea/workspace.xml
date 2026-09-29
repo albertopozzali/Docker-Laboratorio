@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f89e98f-59c3-459f-9a12-b0d6f8736594" name="Changes" comment="aggiunto primo-progetto">
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/hello-world.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/hello-world.php" afterDir="false" />
+    <list default="true" id="9f89e98f-59c3-459f-9a12-b0d6f8736594" name="Changes" comment="aggiunto hello-world.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primo-progetto/www/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/primo-progetto/www/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primo-progetto/www/public/hello-world.php" beforeDir="false" afterPath="$PROJECT_DIR$/primo-progetto/www/public/hello-world.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/78630388/Documents/GitHub/Docker-Laboratorio/primo-progetto",
+    "last_opened_file_path": "C:/Users/78630388/Documents/GitHub/Docker-Laboratorio/tavola-pitagorica",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -75,8 +73,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\78630388\Documents\GitHub\Docker-Laboratorio\primo-progetto" />
+      <recent name="C:\Users\78630388\Documents\GitHub\Docker-Laboratorio\tavola-pitagorica" />
       <recent name="C:\Users\78630388\Documents\GitHub\Docker-Laboratorio" />
+      <recent name="C:\Users\78630388\Documents\GitHub\Docker-Laboratorio\primo-progetto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\78630388\Documents\GitHub\Docker-Laboratorio\primo-progetto\www\public" />
@@ -101,7 +100,10 @@
       <workItem from="1789464345114" duration="313000" />
       <workItem from="1789464743614" duration="1074000" />
       <workItem from="1789808859932" duration="2224000" />
-      <workItem from="1790066606041" duration="3343000" />
+      <workItem from="1790066606041" duration="3755000" />
+      <workItem from="1790414326984" duration="1010000" />
+      <workItem from="1790670729096" duration="29000" />
+      <workItem from="1790671022192" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -127,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789810907677</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aggiunto hello-world.php">
+      <option name="closed" value="true" />
+      <created>1790070208211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790070208212</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="aggiunto primo-progetto" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunto primo-progetto" />
+    <MESSAGE value="aggiunto hello-world.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunto hello-world.php" />
   </component>
 </project>

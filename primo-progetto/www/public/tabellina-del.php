@@ -27,28 +27,32 @@
 <body>
 
 <h2>Tavola Pitagorica</h2>
+<?php if (empty($_GET["valore"])): ?>
 
-<table>
-    <!-- Intestazione colonne (1 - 10) -->
-    <tr>
-        <th>×</th>
-        <?php for ($i = 1; $i <= 10; $i++): ?>
-            <th><?php echo $i; ?></th>
-        <?php endfor; ?>
-    </tr>
+    <h1>INSERIRE UN VALORE</h1>
 
-    <!-- Righe della tabella -->
-    <?php for ($i = 1; $i <= 10; $i++): ?>
+<?php else: ?>
+
+    <?php $valore = (int)$_GET["valore"]; ?>
+
+    <table>
+        <thead>
         <tr>
-            <!-- Intestazione riga -->
-            <th><?php echo $i; ?></th>
-
-            <!-- Calcolo delle moltiplicazioni -->
-            <?php for ($j = 1; $j <= 10; $j++): ?>
-                <td><?php echo $i * $j; ?></td>
-            <?php endfor; ?>
+            <th>Tabellina del <?php echo $valore; ?></th>
         </tr>
-    <?php endfor; ?>
-</table>
-<a href="tabellina-del.php">Vai alla tabellina</a>
+        </thead>
+        <tbody>
+        <?php for ($i = 1; $i <= 10; $i++): ?>
+            <tr>
+                <td>
+                    <?php echo $valore; ?> * <?php echo $i; ?> = <?php echo $valore * $i; ?>
+                </td>
+            </tr>
+        <?php endfor; ?>
+        </tbody>
+    </table>
+
+<?php endif; ?>
+<a href="hello-world.php">Vai alla tavola pitagorica</a>
+</body>
 </html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Richiesta corsi di lingua</title>
+</head>
+<body>
+
+<h2>Richiesta corsi di lingua</h2>
+
+<form action="form.php" method="POST">
+    <p>
+        <label for="cognome">Cognome</label><br>
+        <input type="text" id="cognome" name="cognome" required>
+    </p>
+
+    <p>
+        <label for="nome">Nome</label><br>
+        <input type="text" id="nome" name="nome" required>
+    </p>
+
+    <p>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required>
+    </p>
+
+    <p>
+        <label for="corso">corso di lingua:</label><br>
+        <select name="corso" id="corso" required>
+            <option value="inglese">inglese</option>
+            <option value="francese">francese</option>
+            <option value="spagnolo">spagnolo</option>
+            <option value="tedesco">tedesco</option>
+        </select>
+    </p>
+
+    <p>
+        <label>livello:</label><br>
+        <input type="radio" id="base" name="livello" value="base" checked required>
+        <label for="base">Base</label>
+
+        <input type="radio" id="intermedio" name="livello" value="intermedio">
+        <label for="intermedio">Intermedio</label>
+
+        <input type="radio" id="avanzato" name="livello" value="avanzato">
+        <label for="avanzato">Avanzato</label>
+    </p>
+
+    <p>
+        <label>Preferenza orario:</label><br>
+        <input type="checkbox" id="mattino" name="orario[]" value="mattino">
+        <label for="mattino">Mattino</label><br>
+
+        <input type="checkbox" id="pomeriggio" name="orario[]" value="pomeriggio">
+        <label for="pomeriggio">Pomeriggio</label><br>
+
+        <input type="checkbox" id="sera" name="orario[]" value="sera">
+        <label for="sera">Sera</label>
+    </p>
+
+    <p>
+        <label for="richieste">Altre richieste:</label><br>
+        <textarea id="richieste" name="richieste" rows="4" cols="30"></textarea>
+    </p>
+
+    <p>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Invia">
+    </p>
+</form>
+
+</body>
+</html>

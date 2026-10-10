@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f89e98f-59c3-459f-9a12-b0d6f8736594" name="Changes" comment="aggiunta tabellina-del.php con valore preso tramite !_GET">
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/form.php" afterDir="false" />
+    <list default="true" id="9f89e98f-59c3-459f-9a12-b0d6f8736594" name="Changes" comment="aggiunto form">
+      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/area_riservata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/controllo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,61 +49,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.4354075370638824E-5" />
-      <entry key="MS500" value="0.1790935624064033" />
-      <entry key="S2" value="1.0915406682329687" />
-      <entry key="S5" value="1.570999094641617" />
-      <entry key="S10" value="1.8671265912324786" />
-      <entry key="S30" value="3.4289925995575636" />
-      <entry key="S60" value="4.980586808740669" />
-      <entry key="M2" value="6.67806191837147" />
-      <entry key="M5" value="11.677695206982893" />
-      <entry key="M10" value="24.25283595848365" />
-      <entry key="M15" value="40.31285807495788" />
-      <entry key="M30" value="82.09746811509432" />
-      <entry key="H1" value="126.8124872735642" />
-      <entry key="H2" value="160.64434481248787" />
-      <entry key="H4" value="181.6419782851684" />
-      <entry key="D1" value="201.68310622997154" />
-      <entry key="W1" value="205.37666321471315" />
+      <entry key="MS100" value="1.0084921764604793" />
+      <entry key="MS500" value="1.5632974310705297" />
+      <entry key="S2" value="6.033422086753913" />
+      <entry key="S5" value="13.703142739066953" />
+      <entry key="S10" value="20.49450300072442" />
+      <entry key="S30" value="28.345900056772656" />
+      <entry key="S60" value="30.994003950022094" />
+      <entry key="M2" value="32.72134978508124" />
+      <entry key="M5" value="37.999633279447" />
+      <entry key="M10" value="49.9992249823872" />
+      <entry key="M15" value="64.56596530264193" />
+      <entry key="M30" value="106.28561257051396" />
+      <entry key="H1" value="156.38256116385853" />
+      <entry key="H2" value="197.17377741640593" />
+      <entry key="H4" value="223.5339602121411" />
+      <entry key="D1" value="249.35775222686698" />
+      <entry key="W1" value="254.18359651318485" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000002336506" />
-      <entry key="S5" value="1.0003527173100393" />
-      <entry key="S10" value="1.0187807696870845" />
-      <entry key="S30" value="1.2658098858590714" />
-      <entry key="S60" value="1.5155675377211335" />
-      <entry key="M2" value="1.7180460975178384" />
-      <entry key="M5" value="1.916217921824531" />
-      <entry key="M10" value="2.7011101799361033" />
-      <entry key="M15" value="4.110630888448565" />
-      <entry key="M30" value="8.246672231294266" />
-      <entry key="H1" value="12.841173186303061" />
-      <entry key="H2" value="16.33256469878593" />
-      <entry key="H4" value="18.49621208494529" />
-      <entry key="D1" value="20.55681174008077" />
-      <entry key="W1" value="20.936021369368515" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="9.209730948615532E-116" />
+      <entry key="S5" value="9.679477908222432E-47" />
+      <entry key="S10" value="1.0021439918708919E-23" />
+      <entry key="S30" value="2.7121785648284558E-8" />
+      <entry key="S60" value="2.218452797217195E-4" />
+      <entry key="M2" value="0.0207860640602177" />
+      <entry key="M5" value="0.3277478695134285" />
+      <entry key="M10" value="1.1170941808365629" />
+      <entry key="M15" value="2.2817784519051707" />
+      <entry key="M30" value="6.144141800708458" />
+      <entry key="H1" value="11.083985566016066" />
+      <entry key="H2" value="15.173997612741966" />
+      <entry key="H4" value="17.828122463213635" />
+      <entry key="D1" value="20.431153842731117" />
+      <entry key="W1" value="20.917691021629185" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.014693875299385399" />
-      <entry key="MS500" value="0.6075269207492443" />
-      <entry key="S2" value="1.8990109376553252" />
-      <entry key="S5" value="2.489065513756617" />
-      <entry key="S10" value="2.843133941920932" />
-      <entry key="S30" value="4.67712219854305" />
-      <entry key="S60" value="6.485637224380314" />
-      <entry key="M2" value="8.390144253375297" />
-      <entry key="M5" value="13.591079029952677" />
-      <entry key="M10" value="26.95036555236638" />
-      <entry key="M15" value="44.417721192591756" />
-      <entry key="M30" value="90.33517051666952" />
-      <entry key="H1" value="139.6452701456804" />
-      <entry key="H2" value="176.9711121650056" />
-      <entry key="H4" value="200.13477536341853" />
-      <entry key="D1" value="222.23926481746642" />
-      <entry key="W1" value="226.31258904019538" />
+      <entry key="MS100" value="0.8904634660404906" />
+      <entry key="MS500" value="1.529245666912806" />
+      <entry key="S2" value="6.007652600752677" />
+      <entry key="S5" value="13.6795679907862" />
+      <entry key="S10" value="20.47598606546747" />
+      <entry key="S30" value="28.336922486419976" />
+      <entry key="S60" value="30.98924363230398" />
+      <entry key="M2" value="32.73937387851734" />
+      <entry key="M5" value="38.32545778753396" />
+      <entry key="M10" value="51.11386546202101" />
+      <entry key="M15" value="66.84379626717342" />
+      <entry key="M30" value="112.42263363158125" />
+      <entry key="H1" value="167.45906554029364" />
+      <entry key="H2" value="212.3422638219992" />
+      <entry key="H4" value="241.35872699168732" />
+      <entry key="D1" value="269.78824602605164" />
+      <entry key="W1" value="275.101190514508" />
     </decayedShown>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
@@ -177,7 +178,8 @@
       <workItem from="1790674354037" duration="796000" />
       <workItem from="1791018865237" duration="2382000" />
       <workItem from="1791274194318" duration="1760000" />
-      <workItem from="1791276278822" duration="2762000" />
+      <workItem from="1791276278822" duration="3575000" />
+      <workItem from="1791623473689" duration="2441000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -227,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791020160543</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="aggiunto form">
+      <option name="closed" value="true" />
+      <created>1791279619628</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1791279619628</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +249,7 @@
     <MESSAGE value="aggiunto hello-world.php" />
     <MESSAGE value="aggiunta tabella pitagorica" />
     <MESSAGE value="aggiunta tabellina-del.php con valore preso tramite !_GET" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunta tabellina-del.php con valore preso tramite !_GET" />
+    <MESSAGE value="aggiunto form" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunto form" />
   </component>
 </project>

@@ -68,42 +68,41 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="form-group">
         <label for="sistemazione">tipo di sistemazione</label><br>
         <select name="sistemazione" id="sistemazione">
-            <option value="">-- Seleziona --</option>
-            <option value="veranda" <?php if(isset($_POST['sistemazione']) && $_POST['sistemazione'] == 'veranda') echo 'selected'; ?>>veranda</option>
-            <option value="sala interna" <?php if(isset($_POST['sistemazione']) && $_POST['sistemazione'] == 'sala interna') echo 'selected'; ?>>sala interna</option>
-            <option value="giardino" <?php if(isset($_POST['sistemazione']) && $_POST['sistemazione'] == 'giardino') echo 'selected'; ?>>giardino</option>
+            <option value=""> </option>
+            <option value="veranda">veranda</option>
+            <option value="sala interna">sala interna</option>
+            <option value="giardino">giardino</option>
         </select>
     </div>
 
     <div class="form-group">
         <label for="pizza">pizza</label><br>
         <select name="pizza" id="pizza">
-            <option value="">-- Seleziona --</option>
-            <option value="margherita" <?php if(isset($_POST['pizza']) && $_POST['pizza'] == 'margherita') echo 'selected'; ?>>margherita</option>
-            <option value="capricciosa" <?php if(isset($_POST['pizza']) && $_POST['pizza'] == 'capricciosa') echo 'selected'; ?>>capricciosa</option>
-            <option value="diavola" <?php if(isset($_POST['pizza']) && $_POST['pizza'] == 'diavola') echo 'selected'; ?>>diavola</option>
-            <option value="quattro stagioni" <?php if(isset($_POST['pizza']) && $_POST['pizza'] == 'quattro stagioni') echo 'selected'; ?>>quattro stagioni</option>
+            <option value=""> </option>
+            <option value="margherita">margherita</option>
+            <option value="capricciosa">capricciosa</option>
+            <option value="diavola">diavola</option>
+            <option value="quattro stagioni">quattro stagioni</option>
         </select>
     </div>
 
     <div class="form-group">
         <label>seleziona le eventuali aggiunte:</label><br>
-        <input type="checkbox" name="aggiunte[]" value="prosciutto" id="prosciutto" <?php if(isset($_POST['aggiunte']) && in_array('prosciutto', $_POST['aggiunte'])) echo 'checked'; ?>>
-        <label for="prosciutto">prosciutto</label><br>
+        <input type="checkbox" name="aggiunte[]" value="prosciutto" id="prosciutto"
 
-        <input type="checkbox" name="aggiunte[]" value="ricotta" id="ricotta" <?php if(isset($_POST['aggiunte']) && in_array('ricotta', $_POST['aggiunte'])) echo 'checked'; ?>>
+        <input type="checkbox" name="aggiunte[]" value="ricotta" id="ricotta"
         <label for="ricotta">ricotta</label><br>
 
-        <input type="checkbox" name="aggiunte[]" value="salsiccia" id="salsiccia" <?php if(isset($_POST['aggiunte']) && in_array('salsiccia', $_POST['aggiunte'])) echo 'checked'; ?>>
+        <input type="checkbox" name="aggiunte[]" value="salsiccia" id="salsiccia"
         <label for="salsiccia">salsiccia</label>
     </div>
 
     <div class="form-group">
         <label>Seleziona tipo di impasto:</label><br>
-        <input type="radio" name="impasto" value="senza glutine" id="senza_glutine" <?php if(isset($_POST['impasto']) && $_POST['impasto'] == 'senza glutine') echo 'checked'; ?>>
+        <input type="radio" name="impasto" value="senza glutine" id="senza_glutine"
         <label for="senza_glutine">senza glutine</label>
 
-        <input type="radio" name="impasto" value="normale" id="normale" <?php if(isset($_POST['impasto']) && $_POST['impasto'] == 'normale') echo 'checked'; ?>>
+        <input type="radio" name="impasto" value="normale" id="normale"
         <label for="normale">normale</label>
     </div>
 

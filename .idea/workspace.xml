@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f89e98f-59c3-459f-9a12-b0d6f8736594" name="Changes" comment="aggiunto form">
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/area_riservata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/controllo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/login.php" afterDir="false" />
+    <list default="true" id="9f89e98f-59c3-459f-9a12-b0d6f8736594" name="Changes" comment="aggiunto login.php">
+      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/prenota.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0084921764604793" />
-      <entry key="MS500" value="1.5632974310705297" />
-      <entry key="S2" value="6.033422086753913" />
-      <entry key="S5" value="13.703142739066953" />
-      <entry key="S10" value="20.49450300072442" />
-      <entry key="S30" value="28.345900056772656" />
-      <entry key="S60" value="30.994003950022094" />
-      <entry key="M2" value="32.72134978508124" />
-      <entry key="M5" value="37.999633279447" />
-      <entry key="M10" value="49.9992249823872" />
-      <entry key="M15" value="64.56596530264193" />
-      <entry key="M30" value="106.28561257051396" />
-      <entry key="H1" value="156.38256116385853" />
-      <entry key="H2" value="197.17377741640593" />
-      <entry key="H4" value="223.5339602121411" />
-      <entry key="D1" value="249.35775222686698" />
-      <entry key="W1" value="254.18359651318485" />
+      <entry key="MS100" value="1.0027357020090348" />
+      <entry key="MS500" value="1.810258645311495" />
+      <entry key="S2" value="6.974363124844159" />
+      <entry key="S5" value="13.100713930939774" />
+      <entry key="S10" value="17.080373325139295" />
+      <entry key="S30" value="20.750235024399803" />
+      <entry key="S60" value="21.835735445897033" />
+      <entry key="M2" value="22.409233907945097" />
+      <entry key="M5" value="23.48091761693301" />
+      <entry key="M10" value="29.764088468690016" />
+      <entry key="M15" value="40.135806581571615" />
+      <entry key="M30" value="77.84298205570248" />
+      <entry key="H1" value="135.35512412774358" />
+      <entry key="H2" value="190.13374726695082" />
+      <entry key="H4" value="228.8038333757104" />
+      <entry key="D1" value="268.946976045168" />
+      <entry key="W1" value="276.6839801567076" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="9.209730948615532E-116" />
-      <entry key="S5" value="9.679477908222432E-47" />
-      <entry key="S10" value="1.0021439918708919E-23" />
-      <entry key="S30" value="2.7121785648284558E-8" />
-      <entry key="S60" value="2.218452797217195E-4" />
-      <entry key="M2" value="0.0207860640602177" />
-      <entry key="M5" value="0.3277478695134285" />
-      <entry key="M10" value="1.1170941808365629" />
-      <entry key="M15" value="2.2817784519051707" />
-      <entry key="M30" value="6.144141800708458" />
-      <entry key="H1" value="11.083985566016066" />
-      <entry key="H2" value="15.173997612741966" />
-      <entry key="H4" value="17.828122463213635" />
-      <entry key="D1" value="20.431153842731117" />
-      <entry key="W1" value="20.917691021629185" />
+      <entry key="MS100" value="6.489927546975984E-25" />
+      <entry key="MS500" value="1.4536102265074716E-5" />
+      <entry key="S2" value="0.06174644982128219" />
+      <entry key="S5" value="0.328280281356038" />
+      <entry key="S10" value="0.5729574865171396" />
+      <entry key="S30" value="0.8305659692920889" />
+      <entry key="S60" value="0.9113539209840922" />
+      <entry key="M2" value="0.9546496136538563" />
+      <entry key="M5" value="0.987819827760127" />
+      <entry key="M10" value="1.1445699782493437" />
+      <entry key="M15" value="1.6022491165352502" />
+      <entry key="M30" value="4.169585875507108" />
+      <entry key="H1" value="8.963314104322674" />
+      <entry key="H2" value="13.862192365962496" />
+      <entry key="H4" value="17.414056567462133" />
+      <entry key="D1" value="21.151695686126427" />
+      <entry key="W1" value="21.87657641355888" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8904634660404906" />
-      <entry key="MS500" value="1.529245666912806" />
-      <entry key="S2" value="6.007652600752677" />
-      <entry key="S5" value="13.6795679907862" />
-      <entry key="S10" value="20.47598606546747" />
-      <entry key="S30" value="28.336922486419976" />
-      <entry key="S60" value="30.98924363230398" />
-      <entry key="M2" value="32.73937387851734" />
-      <entry key="M5" value="38.32545778753396" />
-      <entry key="M10" value="51.11386546202101" />
-      <entry key="M15" value="66.84379626717342" />
-      <entry key="M30" value="112.42263363158125" />
-      <entry key="H1" value="167.45906554029364" />
-      <entry key="H2" value="212.3422638219992" />
-      <entry key="H4" value="241.35872699168732" />
-      <entry key="D1" value="269.78824602605164" />
-      <entry key="W1" value="275.101190514508" />
+      <entry key="MS100" value="0.8790075672403543" />
+      <entry key="MS500" value="1.7553019471702573" />
+      <entry key="S2" value="6.888241252161582" />
+      <entry key="S5" value="13.212160927808661" />
+      <entry key="S10" value="17.46932983863519" />
+      <entry key="S30" value="21.491639414234637" />
+      <entry key="S60" value="22.69802158371158" />
+      <entry key="M2" value="23.33813588979887" />
+      <entry key="M5" value="24.45809816654451" />
+      <entry key="M10" value="30.90296747896842" />
+      <entry key="M15" value="41.733422807554575" />
+      <entry key="M30" value="82.00709499667728" />
+      <entry key="H1" value="144.31216287086684" />
+      <entry key="H2" value="203.99081770963772" />
+      <entry key="H4" value="246.21457521461414" />
+      <entry key="D1" value="290.09798317885225" />
+      <entry key="W1" value="298.5604543781741" />
     </decayedShown>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
@@ -179,7 +177,9 @@
       <workItem from="1791018865237" duration="2382000" />
       <workItem from="1791274194318" duration="1760000" />
       <workItem from="1791276278822" duration="3575000" />
-      <workItem from="1791623473689" duration="2441000" />
+      <workItem from="1791623473689" duration="2473000" />
+      <workItem from="1791880326319" duration="694000" />
+      <workItem from="1791882103922" duration="2084000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -237,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791279619628</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="aggiunto login.php">
+      <option name="closed" value="true" />
+      <created>1791625994516</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1791625994516</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +258,7 @@
     <MESSAGE value="aggiunta tabella pitagorica" />
     <MESSAGE value="aggiunta tabellina-del.php con valore preso tramite !_GET" />
     <MESSAGE value="aggiunto form" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunto form" />
+    <MESSAGE value="aggiunto login.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunto login.php" />
   </component>
 </project>

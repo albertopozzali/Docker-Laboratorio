@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f89e98f-59c3-459f-9a12-b0d6f8736594" name="Changes" comment="parcheggio.php">
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/file verifica" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/home-spedizioni.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/spedizioni.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primo-progetto/www/public/verifica.php" afterDir="false" />
+    <list default="true" id="9f89e98f-59c3-459f-9a12-b0d6f8736594" name="Changes" comment="aggiunta spedizioni.php">
+      <change afterPath="$PROJECT_DIR$/progetto-plates/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/db-data/load.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/db-init/01_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/db-init/02_seed.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/docker-compose.override.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/docs/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/conf/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/public/css/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/public/img/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/public/js/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/src/Controller/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/src/Model/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/src/Util/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progetto-plates/www/templates/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,61 +66,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
+      <entry key="MS100" value="3.18123165066325E-10" />
+      <entry key="MS500" value="0.015226606398518082" />
+      <entry key="S2" value="0.8152930223550685" />
+      <entry key="S5" value="2.3055647690677046" />
+      <entry key="S10" value="3.366695943480962" />
+      <entry key="S30" value="4.393375033564354" />
+      <entry key="S60" value="4.835200007412625" />
+      <entry key="M2" value="5.88848483170736" />
+      <entry key="M5" value="14.34835726220459" />
+      <entry key="M10" value="31.4133269286045" />
+      <entry key="M15" value="47.39896666306544" />
+      <entry key="M30" value="94.36979734475008" />
+      <entry key="H1" value="178.0543063138618" />
+      <entry key="H2" value="299.08324088344574" />
+      <entry key="H4" value="428.8401351799888" />
+      <entry key="D1" value="622.0829292918038" />
+      <entry key="W1" value="667.8978573708855" />
+    </decayedCancelled>
+    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
       <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000020877806" />
-      <entry key="S30" value="1.0029137080840216" />
-      <entry key="S60" value="1.1542449766981953" />
-      <entry key="M2" value="2.8331836764354534" />
-      <entry key="M5" value="13.984561944095086" />
-      <entry key="M10" value="32.23177057634268" />
-      <entry key="M15" value="48.401388633941295" />
-      <entry key="M30" value="95.47328841190271" />
-      <entry key="H1" value="178.86065085510242" />
-      <entry key="H2" value="298.974108504468" />
-      <entry key="H4" value="427.3493990969878" />
-      <entry key="D1" value="617.9314419876359" />
-      <entry key="W1" value="663.0279939318567" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.6357473836924534E-105" />
-      <entry key="S5" value="1.2175491283106909E-42" />
-      <entry key="S10" value="1.1034578927102097E-21" />
-      <entry key="S30" value="1.0650346903347987E-7" />
-      <entry key="S60" value="3.777481200469912E-4" />
-      <entry key="M2" value="0.025476924719160368" />
-      <entry key="M5" value="0.3690007725278323" />
-      <entry key="M10" value="1.1789895572017615" />
-      <entry key="M15" value="2.184691077750915" />
-      <entry key="M30" value="6.3505995265385495" />
-      <entry key="H1" value="15.02061656628292" />
-      <entry key="H2" value="27.281874464229197" />
-      <entry key="H4" value="39.85404133618341" />
-      <entry key="D1" value="58.00652437624813" />
-      <entry key="W1" value="62.25109293139581" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000020378152" />
+      <entry key="S60" value="1.000052251990757" />
+      <entry key="M2" value="1.009475393805233" />
+      <entry key="M5" value="1.248431911715253" />
+      <entry key="M10" value="1.96738647526658" />
+      <entry key="M15" value="2.9147705402419604" />
+      <entry key="M30" value="6.945358915300257" />
+      <entry key="H1" value="15.533473913943405" />
+      <entry key="H2" value="27.83583073689535" />
+      <entry key="H4" value="40.52690280160286" />
+      <entry key="D1" value="58.926894649056" />
+      <entry key="W1" value="63.238877664087205" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8766057213160351" />
-      <entry key="MS500" value="0.974004268543241" />
-      <entry key="S2" value="0.9934367347173356" />
-      <entry key="S5" value="0.9973695065410157" />
-      <entry key="S10" value="0.998683889064276" />
-      <entry key="S30" value="1.0023783866631084" />
-      <entry key="S60" value="1.1524892064238978" />
-      <entry key="M2" value="2.850713400843995" />
-      <entry key="M5" value="14.337288655447082" />
-      <entry key="M10" value="33.391911731046356" />
-      <entry key="M15" value="50.56606421443788" />
-      <entry key="M30" value="101.80188636808528" />
-      <entry key="H1" value="193.85987519869207" />
-      <entry key="H2" value="326.23871972176676" />
-      <entry key="H4" value="467.1916684219793" />
-      <entry key="D1" value="675.93527949355" />
-      <entry key="W1" value="725.2786792339563" />
+      <entry key="MS100" value="5.336639123413561E-8" />
+      <entry key="MS500" value="0.04485311849415765" />
+      <entry key="S2" value="1.2025367889585872" />
+      <entry key="S5" value="2.9834194802689584" />
+      <entry key="S10" value="4.188516177632855" />
+      <entry key="S30" value="5.329636676774826" />
+      <entry key="S60" value="5.802513275645797" />
+      <entry key="M2" value="6.878634568527486" />
+      <entry key="M5" value="15.579248678168103" />
+      <entry key="M10" value="33.36194991652942" />
+      <entry key="M15" value="50.29399465523251" />
+      <entry key="M30" value="101.29345797811149" />
+      <entry key="H1" value="193.56653129011494" />
+      <entry key="H2" value="326.90181532656993" />
+      <entry key="H4" value="469.35522494372316" />
+      <entry key="D1" value="681.0071178148221" />
+      <entry key="W1" value="731.1363242078902" />
     </decayedShown>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
@@ -131,7 +147,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/78630388/Documents/GitHub/Docker-Laboratorio/primo-progetto/www/public",
+    "last_opened_file_path": "C:/Users/78630388/Documents/GitHub/Docker-Laboratorio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -145,9 +161,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\78630388\Documents\GitHub\Docker-Laboratorio" />
       <recent name="C:\Users\78630388\Documents\GitHub\Docker-Laboratorio\primo-progetto\www\public" />
       <recent name="C:\Users\78630388\Documents\GitHub\Docker-Laboratorio\tavola-pitagorica" />
-      <recent name="C:\Users\78630388\Documents\GitHub\Docker-Laboratorio" />
       <recent name="C:\Users\78630388\Documents\GitHub\Docker-Laboratorio\primo-progetto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -187,7 +203,8 @@
       <workItem from="1792227880266" duration="2007000" />
       <workItem from="1792486254940" duration="1618000" />
       <workItem from="1792834047469" duration="1369000" />
-      <workItem from="1793091901777" duration="5182000" />
+      <workItem from="1793091901777" duration="5708000" />
+      <workItem from="1793441804667" duration="236000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -277,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792835319897</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="aggiunta spedizioni.php">
+      <option name="closed" value="true" />
+      <created>1793097306247</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1793097306247</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +319,8 @@
     <MESSAGE value="esercizio prenota.php" />
     <MESSAGE value="sistemazioni a prenota.php" />
     <MESSAGE value="parcheggio.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="parcheggio.php" />
+    <MESSAGE value="aggiunta spedizioni.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunta spedizioni.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
